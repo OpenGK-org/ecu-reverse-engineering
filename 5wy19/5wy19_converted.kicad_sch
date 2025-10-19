@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 157.48 132.715)
+		(size 27.305 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21a6ac61-dfba-469d-ae39-678661793657")
+		(property "Sheetname" "Logic ICs"
+			(at 157.48 132.0034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_ic.kicad_sch"
+			(at 157.48 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "5wy19_converted"
+				(path "/abd366a8-4ac6-4ee7-9079-ac453affd4f2"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 115.57 88.9)
 		(size 22.86 21.59)
 		(exclude_from_sim no)
@@ -147,7 +189,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8db61b77-fa8b-407d-9bc3-1590cbdd5646")
-		(property "Sheetname" "Logic"
+		(property "Sheetname" "Sensor Logic"
 			(at 118.11 132.0034 0)
 			(effects
 				(font
@@ -389,4 +431,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "a4_sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCyCWUVAOYdXyEAtxsWHGS5ZWWMnPes1oTrDHxAamZlFGe+cSP//z/UEwFVAE4AWQBZxP/Y
+				I/F/PDdP2uP15E7kfMdDg6XW7M+Dl+TjDQ3Wou2nW37JvwAABASk6L2c1qLiVBd0TkhWnfF32Uf3
+				GDBKKaLO2iO+ZfZRARAQlCESB+y+GyoEkyIKgB9xh7atXWKyolV/yd97OxG29rSmUv7G+52TnrOP
+				GX8f9uxZhT4ceu3h32//fIOjCOeuq/7RRRF/tWuDo2O17dWfuy+rql3sxv88ncVeNEtm8dPFgCH2
+				elqKWjeNdhn5BcOqjiC6zolZiYtS2TAXTcNxZI0tgiJYy7a9FL2wrkRK4zIHR8tgMBuK0Az/zpFz
+				NmX/0b82de6XIpCtTTNTtT09zwsBgYEmEBajliJBrzoRlKNoE9PYkSJuVGvWDSWzTCqNhXVBuMzC
+				aRoEg2HVSigmGUWTbI/7+G7Y/e2ENakm4TYu/MtVCt5+9w/msujgkBqAW9XfiRl3OjsZgIag8Uik
+				nBkSkSRJCh2ARKQEqRu7hKdi4cjAXYATDJrrgiyVqB5BaVnTnmFqzGMhjh02UaDwI+/JDYhkwE1+
+				oiWYGJyVzjshTDD0CinBCdehnAIXCweHmfZh3U/JiARvBhsU+g7YFl/8gApvNEzZR3V5MXUosH5p
+				h5bFEMyCUT+GlyWkxcLPFc9eB/YJLdpa64YJjwaBJlg+SBe/S+6HaTWdhIMO+D3QvmVSTLCcK2b+
+				0XtQwxANMfmhqqTNQi575T6CukIvbbWhQUh3Tn+iQtGbM3hA7o9yj9YD7CxuOVZd9Nof843reekX
+				AiGjJjEdkIkII4RBgfzpkDYl4WVd9Ch/FXjg4AGRGSLFbNFJSmuTchkRQ07niL2UXk1qmpaN9d+x
+				XMRt5KIP6RisKg==|
+			)
+			(checksum "5EDB5D516FD496EB6CB7D2D798AC4F3B")
+		)
+	)
 )

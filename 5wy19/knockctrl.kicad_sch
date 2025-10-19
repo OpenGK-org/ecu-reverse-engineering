@@ -479,9 +479,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1*"
+		(exclude_from_sim no)
+		(at 49.784 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da0cfabe-669c-481e-b476-24567bb62b71")
+	)
+	(text_box "1. In simple terms, when the INT pin is high, the IC charges\nthe integration capacitor. When it is low, the capacitor HOLDs\nits charge and it can be read with an ADC connected to the OUT pin.\nBasically by holding the INT pin high for a set amount of time, defines\nthe time of your knock window. The capacitor is charged with the energy\nfrom the knock sensor signal. If the capacitor charge is high, then \nthe signal energy is high, hence you have knock (if over a preset amount)."
+		(exclude_from_sim no)
+		(at 12.065 182.245 0)
+		(size 76.2 15.875)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2272b73e-7b75-41ff-b6ae-e6edaf77d757")
+	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 127 71.12)
+			(xy 102.87 67.31) (xy 109.22 67.31)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +521,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 66.04) (xy 127 66.04)
+			(xy 102.87 62.23) (xy 109.22 62.23)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +531,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 55.88) (xy 93.98 55.88)
+			(xy 69.85 52.07) (xy 76.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -511,7 +541,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 127 58.42)
+			(xy 102.87 54.61) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -521,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 93.98 78.74)
+			(xy 69.85 74.93) (xy 76.2 74.93)
 		)
 		(stroke
 			(width 0)
@@ -531,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 71.12) (xy 93.98 71.12)
+			(xy 69.85 67.31) (xy 76.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 127 78.74)
+			(xy 102.87 74.93) (xy 109.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -551,7 +581,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 127 55.88)
+			(xy 102.87 52.07) (xy 109.22 52.07)
 		)
 		(stroke
 			(width 0)
@@ -561,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 127 63.5)
+			(xy 102.87 59.69) (xy 109.22 59.69)
 		)
 		(stroke
 			(width 0)
@@ -571,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 93.98 60.96)
+			(xy 69.85 57.15) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -581,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 127 68.58)
+			(xy 102.87 64.77) (xy 109.22 64.77)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 127 73.66)
+			(xy 102.87 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 127 76.2)
+			(xy 102.87 72.39) (xy 109.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -611,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 127 60.96)
+			(xy 102.87 57.15) (xy 109.22 57.15)
 		)
 		(stroke
 			(width 0)
@@ -621,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 58.42) (xy 93.98 58.42)
+			(xy 69.85 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -631,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 93.98 76.2)
+			(xy 69.85 72.39) (xy 76.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 63.5) (xy 93.98 63.5)
+			(xy 69.85 59.69) (xy 76.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 93.98 73.66)
+			(xy 69.85 69.85) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -659,9 +689,31 @@
 		)
 		(uuid "e921c56f-0bf3-4a20-92e8-1119e9ad1453")
 	)
+	(global_label "KNOCK INTEGRATE"
+		(shape input)
+		(at 69.85 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a1ef3a0-f4f4-4b81-8d6d-766b8e46b395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1043 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KNOCK IC CS"
 		(shape input)
-		(at 87.63 73.66 180)
+		(at 69.85 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -671,7 +723,29 @@
 		)
 		(uuid "749731c5-b0d3-4bbc-91f9-2f2ea0ce6dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.8843 73.66 0)
+			(at 54.1043 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KNOCK"
+		(shape input)
+		(at 69.85 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c0f94d-c49a-4bba-bb2e-211d3964db11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1043 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +757,7 @@
 	)
 	(symbol
 		(lib_id "SIMK43:TP1C8101DW")
-		(at 107.95 67.31 0)
+		(at 90.17 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -692,7 +766,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bc4d27c-6f5e-4053-96f0-d188d54f7547")
 		(property "Reference" "IC5"
-			(at 104.4975 49.3225 0)
+			(at 86.7175 45.5125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +774,7 @@
 			)
 		)
 		(property "Value" "TP1C8101DW"
-			(at 104.4975 51.7468 0)
+			(at 86.7175 47.9368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
