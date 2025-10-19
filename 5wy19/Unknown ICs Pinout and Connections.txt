@@ -1,0 +1,134 @@
+*--------------------------------------------------------------------------------------------------------------------------*
+IC #4: ST ATM38E
+
+Pin 1: GND
+Pin 2: Harness Con. Pin 9 - H02S Heater (B1/S2)
+Pin 3: N/C
+Pin 4: MCU Pin 10 - GPIO or Input Capture/Output Compare or CAN TxD
+Pin 5: MCU Pin 76 - MTSR (Master Transmit/Slave Receive, basically SPI MOSI)
+Pin 6: MCU Pin 80 - SCLK
+Pin 7: 74HCHCT574 Pin 16 (D-Flops used as buffer) -> MCU Pin 105 - Read datasheet. (chip select)
+Pin 8: MCU Pin 22 - GPIO or PWM Channel 3 Output
+Pin 9: Harness Con Pin 11 - CVVT Oil Control Valve output | Hanress Con Pin 14 - Battery Voltage Supply after Main Relay via Diode right underneath the IC (for output protection)
+Pin 10: GND
+Pin 11: GND
+Pin 12: Harness Con Pin 26 - Purge Control Solenoid Valve (PCSV) PWM output
+Pin 13: MCU Pin 60 - GPIO or Input Capture/Output Compare or EXT Interrupt 3
+Pin 14: VDD/VCC
+Pin 15: MCU Pin 141 - Reset Out, goes low when the MCU is resetting or initializing 
+Pin 16: IC #6, TY94085DH Pin 5 (SDI/MOSI)
+Pin 17: MCU Pin 9 - GPIO or Input Capture/Output Compare or CAN RxD
+Pin 18: N/C
+Pin 19: Harness Con Pin 8 - H02S Heater (B1/S1)
+Pin 20: GND
+
+
+Matches Datasheet for: https://www.nxp.com/docs/en/data-sheet/MC33385.pdf
+
+*--------------------------------------------------------------------------------------------------------------------------*
+
+IC #5: Motorola TY94085DH
+
+Pin 1: GND
+Pin 2: Harness Con. Pin 61 - Injector output (cyl.3)
+Pin 3: N/C
+Pin 4: MCU Pin 48 - GPIO or Input Capture/Output Compare
+Pin 5: IC #6, TY94085DH Pin 16 (SDO/MISO)
+Pin 6: MCU Pin 80 - SCLK
+Pin 7: 74HCHCT574 Pin 16 (D-Flops used as buffer) -> MCU Pin 105 - Read datasheet. (chip select)
+Pin 8: MCU Pin 50 - GPIO or Input Capture/Output Compare
+Pin 9: Harness Con. Pin 62 - Injector output (cyl.2) 
+Pin 10: GND
+Pin 11: GND
+Pin 12: Harness Con Pin 23 - Injector output (cyl. 4) 
+Pin 13: MCU Pin 49 - GPIO or Input Capture/Output Compare
+Pin 14: VDD/VCC
+Pin 15: MCU Pin 141 - Reset Out, goes low when the MCU is resetting or initializing 
+Pin 16: MCU Pin 75 - MRST (Master Receive/Slave Trasmit, basically SPI MISO)
+Pin 17: MCU Pin 47 - GPIO or Input Capture/Output Compare
+Pin 18: N/C
+Pin 19: Harness Con Pin 24 - Injector output (cyl. 1)
+Pin 20: GND
+
+Matches Datasheet for: https://www.nxp.com/docs/en/data-sheet/MC33385.pdf
+
+*--------------------------------------------------------------------------------------------------------------------------*
+
+IC #6: Motorola TY94085DH
+
+Pin 1: GND
+Pin 2: Harness Con. Pin 78 - Idle Speed Control Actuator PWM output 2 (CLOSE)
+Pin 3: N/C
+Pin 4: MCU Pin 20 - GPIO or PWM Channel 3 Output
+Pin 5: IC #4 ST ATM38E Pin 16 (SDO/MISO)
+Pin 6: MCU Pin 80 - SCLK
+Pin 7: 74HCHCT574 Pin 16 (D-Flops used as buffer) -> MCU Pin 105 - Read datasheet. (chip select)
+Pin 8: MCU Pin 14 - GPIO or Input Capture/Output Compare
+Pin 9: Harness Con. Pin 79 - Canister Close Valve Control output
+Pin 10: GND
+Pin 11: GND
+Pin 12: Harness Con Pin 81 - Immobilizer Lamp output  
+Pin 13: MCU Pin 51 - GPIO or Input Capture/Output Compare
+Pin 14: VDD/VCC
+Pin 15: MCU Pin 141 - Reset Out, goes low when the MCU is resetting or initializing 
+Pin 16: IC #5, TY94085DH Pin 5 (SDI/MOSI)
+Pin 17: MCU Pin 19 - GPIO or PWM Channel 0 Output
+Pin 18: N/C
+Pin 19: Harness Con Pin 80 - Idle Speed Control Actuator PWM output 1 (OPEN)
+Pin 20: GND
+
+Matches Datasheet for: https://www.nxp.com/docs/en/data-sheet/MC33385.pdf
+
+*--------------------------------------------------------------------------------------------------------------------------*
+
+IC #14: ST ATM39B
+
+Pin 1: GND
+Pin 2: MCU Pin 61 - GPIO or Input Capture/Output Compare or EXT Interrupt 4
+Pin 3: MCU Pin 75 - MRST (Master Receive/Slave Trasmit, basically SPI MISO)
+Pin 4: Harness Con Pin 66 - Engine Speed signal output to Tachometer
+Pin 5: Harness Con Pin 65 - Cooling Fan Relay - Low control output
+Pin 6: Harness Con Pin 64 - Cooling Fan Relay - High control output 
+Pin 7: Harness Con Pin 63 - Not connected
+Pin 8: MCU Pin 76 - MTSR (Master Transmit/Slave Receive, basically SPI MOSI)
+Pin 9: MCU Pin 80 - SCLK
+Pin 10: GND
+Pin 11: GND
+Pin 12: MCU Pin 7 - Hold Acknowledge Output (master mode) or Input (slave mode) 
+Pin 13: VDD/VCC
+Pin 14: Hanress Con 67 - Main Relay control output
+Pin 15: Hanress Con 68 - Air Conditioner Compressor Relay control output
+Pin 16: Hanress Con 69 - Electric Fuel Pump Relay control output
+Pin 17: Hanress Con 70 - Malfunction Indicating Lamp (MIL) output
+Pin 18: MCU Pin 141 - Reset Out, goes low when the MCU is resetting or initializing
+Pin 19: 74HCHCT574 Pin 15 (D-Flops used as buffer) -> MCU Pin 105 - Read datasheet. (chip select)
+Pin 20: GND
+
+Matches Datasheet for: https://www.alldatasheet.com/datasheet-pdf/view/1595988/RENESAS/HIP0045.html
+
+*--------------------------------------------------------------------------------------------------------------------------*
+
+IC #9: TI TP1C8101DW or Intersill ATM40LN
+
+Pin 1: VDD/VCC
+Pin 2: GND
+Pin 3: Pin 20(CH1P)and 15(CH2P)
+Pin 4: MCU Pin 44 - Schmitt Trig. Input or A/D Input or Timer 2 Ctrl Input
+Pin 5: N/C
+Pin 6: N/C
+Pin 7: MCU Pin 52 - GPIO or Input Capture/Output Compare
+Pin 8: MCU Pin 8 - GPIO or Bus Request Output
+Pin 9: Pin 10 (XOUT) through 100k Resistor and to MCU Pin 81 - GPIO Or CLKOUT/FOUT, through 100Ω resistor
+Pin 10: Pin 9 (XIN) through 100k Resistor
+Pin 11: MCU Pin 75 - MRST (Master Receive/Slave Trasmit, basically SPI MISO)
+Pin 12: MCU Pin 76 - MTSR (Master Transmit/Slave Receive, basically SPI MOSI) 
+Pin 13: MCU Pin 80 - SCLK
+Pin 14: N/C
+Pin 15: Pin 20 (CH1P) and 3 (Vref) 
+Pin 16: GND
+Pin 17: To GND through 100k resistor
+Pin 18: Pin 19 through 121k resistor and to Harness Pin 10 - Knock Sensor Input through and RC filter 
+Pin 19: Pin 18 through 121k resistor and to Harness Pin 10 - Knock Sensor Input through and RC filter 
+Pin 20: Pin 15 (CH2P) and 3 (Vref) 
+
+Datasheet: https://www.ti.com/lit/ds/symlink/tpic8101.pdf?ts=1760666246539
