@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Free Documents]
+   Generated File[891-нц250721-1.TXT]
+   Generated File[891-нц250721-1.DRL]
+   Generated File[891-нц250721-1.LDP]
+   Generated File[891-нц250721-1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 17:22:39 On 2025/9/8

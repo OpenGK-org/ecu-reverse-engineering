@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: 891-нц250721-1.pcbdoc   2025/9/8  17:22:39
+---------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII RoundHoles File : 891-нц250721-1.TXT
+EIA File   : 891-нц250721-1.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        20mil (0.508mm)          Round          1372             460.74 Inch (11702.85 mm)
+T2        40mil (1.016mm)          Round          108              302.58 Inch (7685.54 mm)
+T3        50mil (1.27mm)           Round          16               295.48 Inch (7505.10 mm)
+---------------------------------------------------------------------------
+Totals                                            1496             1058.80 Inch (26893.48 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
