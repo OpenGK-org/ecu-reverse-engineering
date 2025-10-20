@@ -198,7 +198,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "logic.kicad_sch"
+		(property "Sheetfile" "sensor_logic.kicad_sch"
 			(at 118.11 158.0646 0)
 			(effects
 				(font

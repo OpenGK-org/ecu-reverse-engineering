@@ -2473,6 +2473,28 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 163.83 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ab657a0-05d2-4d36-8062-6dd6faa3651a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8779 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "O2 S1 Diag"
 		(shape input)
 		(at 83.82 43.18 0)
@@ -2486,6 +2508,28 @@
 		(uuid "803d56b7-6ee8-459e-90fa-4937e4919ac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.7513 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MEMPWR MASK"
+		(shape input)
+		(at 83.82 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83525c16-498f-42ba-a3c8-bdfbe42ab1d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8355 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,6 +2605,28 @@
 			)
 		)
 	)
+	(global_label "SCLK"
+		(shape input)
+		(at 208.28 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f42621d-e20f-467e-a382-10403bc70aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5172 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRV1 CH4 EN"
 		(shape input)
 		(at 41.91 132.08 180)
@@ -2618,6 +2684,50 @@
 		(uuid "98eb5d14-abd2-4fe2-9ce8-b7a2120eb59e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.862 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 124.46 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3711319-317d-4027-b2fb-87201ae8cce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.6972 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 41.91 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aecc8891-e93f-4183-a483-be372a543dbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,6 +2843,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 41.91 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebcab484-2b65-4679-9cbc-a8844939d911")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.1472 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

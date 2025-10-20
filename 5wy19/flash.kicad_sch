@@ -1294,6 +1294,28 @@
 			)
 		)
 	)
+	(global_label "ADDR16"
+		(shape input)
+		(at 123.19 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "280ef37a-7f6c-4ecc-b6bc-e6e90e6cc106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8872 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLASH WE"
 		(shape input)
 		(at 123.19 121.92 180)
@@ -1307,6 +1329,50 @@
 		(uuid "337a881d-3a25-4bf6-b0e8-182e1f5e74a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.8915 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR15"
+		(shape input)
+		(at 123.19 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79180ee3-3513-49c2-8ceb-f3c78c973cce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8872 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR17"
+		(shape input)
+		(at 123.19 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "839f7a47-6944-4a9c-b761-abe669195afd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8872 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
