@@ -4,15 +4,19 @@
 	(generator_version "9.0")
 	(uuid "abd366a8-4ac6-4ee7-9079-ac453affd4f2")
 	(paper "A4")
+	(title_block
+		(title "SMIK43 5WY19 Rev. Eng")
+		(date "2025-10-28")
+		(rev "1.0")
+	)
 	(lib_symbols)
 	(sheet
-		(at 219.075 110.49)
-		(size 33.02 27.94)
+		(at 205.105 19.05)
+		(size 61.595 28.575)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -22,16 +26,18 @@
 		)
 		(uuid "133c64e9-fbfa-4356-988e-c005746342d3")
 		(property "Sheetname" "Flash Memory"
-			(at 219.075 109.7784 0)
+			(at 214.376 35.814 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 219.075 139.0146 0)
+			(at 205.105 48.2096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,13 +54,12 @@
 		)
 	)
 	(sheet
-		(at 127.635 25.4)
-		(size 36.195 38.1)
+		(at 171.45 61.595)
+		(size 66.675 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,16 +69,18 @@
 		)
 		(uuid "145007d0-27ba-4f49-89d1-395ce4dfce9f")
 		(property "Sheetname" "MCU"
-			(at 127.635 24.6884 0)
+			(at 195.326 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 6 6)
+					(thickness 1.2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 127.635 64.0846 0)
+			(at 171.45 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,13 +97,12 @@
 		)
 	)
 	(sheet
-		(at 157.48 132.715)
-		(size 27.305 26.035)
+		(at 172.085 137.16)
+		(size 54.61 28.575)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -106,16 +112,18 @@
 		)
 		(uuid "21a6ac61-dfba-469d-ae39-678661793657")
 		(property "Sheetname" "Logic ICs"
-			(at 157.48 132.0034 0)
+			(at 184.658 154.686 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "logic_ic.kicad_sch"
-			(at 157.48 159.3346 0)
+			(at 172.085 166.3196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,13 +140,12 @@
 		)
 	)
 	(sheet
-		(at 115.57 88.9)
-		(size 22.86 21.59)
+		(at 15.875 66.675)
+		(size 22.86 90.17)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -148,16 +155,18 @@
 		)
 		(uuid "3c1d2749-c93e-417f-8348-409e066cb267")
 		(property "Sheetname" "Ignition Coil Driver"
-			(at 115.57 88.1884 0)
+			(at 28.956 141.224 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "igadrv.kicad_sch"
-			(at 115.57 111.0746 0)
+			(at 15.875 157.4296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,13 +183,12 @@
 		)
 	)
 	(sheet
-		(at 118.11 132.715)
-		(size 29.21 24.765)
+		(at 52.705 66.675)
+		(size 96.52 38.735)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -190,16 +198,18 @@
 		)
 		(uuid "8db61b77-fa8b-407d-9bc3-1590cbdd5646")
 		(property "Sheetname" "Sensor Logic"
-			(at 118.11 132.0034 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "sensor_logic.kicad_sch"
-			(at 118.11 158.0646 0)
+			(at 52.705 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,13 +226,12 @@
 		)
 	)
 	(sheet
-		(at 197.485 41.91)
-		(size 27.94 22.86)
+		(at 114.935 113.03)
+		(size 33.655 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -232,16 +241,18 @@
 		)
 		(uuid "b6ba1acc-1008-49db-a1a5-782b46549b03")
 		(property "Sheetname" "Knock Control"
-			(at 197.485 41.1984 0)
+			(at 117.856 125.984 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
+					(thickness 0.5)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "knockctrl.kicad_sch"
-			(at 197.485 65.3546 0)
+			(at 114.935 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,13 +269,12 @@
 		)
 	)
 	(sheet
-		(at 173.99 78.74)
-		(size 33.02 27.94)
+		(at 14.605 170.815)
+		(size 146.685 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -274,16 +284,18 @@
 		)
 		(uuid "bc4d73a4-42bb-41fb-9a50-e228e89a451a")
 		(property "Sheetname" "Connectors"
-			(at 173.99 78.0284 0)
+			(at 67.564 185.166 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 173.99 107.2646 0)
+			(at 14.605 194.2596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,13 +312,12 @@
 		)
 	)
 	(sheet
-		(at 34.925 66.675)
-		(size 30.48 34.925)
+		(at 139.065 146.685)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -316,16 +327,18 @@
 		)
 		(uuid "bcea594f-5802-461c-b871-25b4e6f18846")
 		(property "Sheetname" "CANBUS"
-			(at 34.925 65.9634 0)
+			(at 144.018 157.226 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 34.925 102.1846 0)
+			(at 139.065 165.0496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,13 +355,12 @@
 		)
 	)
 	(sheet
-		(at 35.56 121.285)
-		(size 29.21 26.67)
+		(at 233.68 137.16)
+		(size 48.895 28.575)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -358,16 +370,18 @@
 		)
 		(uuid "c4e8148c-e0d9-424a-a1b0-b7edb94ab807")
 		(property "Sheetname" "Power Supply"
-			(at 35.56 120.5734 0)
+			(at 236.982 154.178 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "pwr.kicad_sch"
-			(at 35.56 148.5396 0)
+			(at 233.68 166.3196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,13 +398,12 @@
 		)
 	)
 	(sheet
-		(at 34.29 28.575)
-		(size 32.385 24.13)
+		(at 24.765 21.59)
+		(size 120.015 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -400,16 +413,18 @@
 		)
 		(uuid "f88e46d2-0cde-4bed-8405-a12b94d56d1d")
 		(property "Sheetname" "IO Drivers"
-			(at 34.29 27.8634 0)
+			(at 64.77 37.592 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "iodriv.kicad_sch"
-			(at 34.29 53.2896 0)
+			(at 24.765 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

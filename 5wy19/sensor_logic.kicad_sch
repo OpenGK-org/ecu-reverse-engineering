@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "72d700db-7af5-40bd-bec3-728aba43ecc0")
 	(paper "A4")
+	(title_block
+		(title "SMIK43 5WY19 Rev. Eng")
+		(date "2025-10-28")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -2234,8 +2239,8 @@
 	)
 	(text_box "SOT-23 Marking Codes:\nY14 = BZX84C39\n1Bs	= BC846\nWMs = BCR183\nA1s = BAW56\n3Bs = BC856B\nY2W = BZX84C12\nHSs or sSH = N-FET"
 		(exclude_from_sim no)
-		(at 308.61 43.815 0)
-		(size 63.5 84.455)
+		(at 12.065 156.845 0)
+		(size 63.5 41.275)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2415,26 +2420,6 @@
 			(justify left top)
 		)
 		(uuid "87e64f83-a138-41f0-a23c-e54a8d03bf9d")
-	)
-	(text_box "Diode connected BJTs???"
-		(exclude_from_sim no)
-		(at 255.27 55.88 0)
-		(size 11.43 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "97d9f9fa-f961-4ef6-ae94-e2b17f90a26c")
 	)
 	(text_box "2.307V @ 12V Input"
 		(exclude_from_sim no)
