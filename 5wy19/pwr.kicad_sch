@@ -2598,7 +2598,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 101.6 87.63 90)
+		(at 101.6 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2606,7 @@
 		(dnp no)
 		(uuid "255f646b-cd60-48b4-a4c8-809b436fd837")
 		(property "Reference" "R148"
-			(at 103.632 84.074 90)
+			(at 99.568 91.186 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 103.886 85.598 90)
+			(at 99.314 89.662 90)
 			(effects
 				(font
 					(size 1.06 1.06)
@@ -3945,7 +3945,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 162.56 100.33 90)
+		(at 162.56 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3953,7 +3953,7 @@
 		(dnp no)
 		(uuid "bf5f1021-c719-4f49-97e2-6a50aa598703")
 		(property "Reference" "R99"
-			(at 164.338 102.362 90)
+			(at 162.814 98.298 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3962,7 +3962,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 164.592 103.886 90)
+			(at 162.56 96.774 90)
 			(effects
 				(font
 					(size 1.06 1.06)
@@ -4014,7 +4014,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 91.44 180)
+		(at 106.68 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4022,7 +4022,7 @@
 		(dnp no)
 		(uuid "c598bee1-d02e-49ca-84cf-38f561fdaa3e")
 		(property "Reference" "C80"
-			(at 104.902 91.186 0)
+			(at 108.458 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4031,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 104.648 93.218 0)
+			(at 108.712 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 173.99 87.63 90)
+		(at 173.99 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4424,7 +4424,7 @@
 		(dnp no)
 		(uuid "ee88c4d5-d7ca-4c18-b0a5-65cc11b5e098")
 		(property "Reference" "R98"
-			(at 175.514 86.106 90)
+			(at 172.466 86.106 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4433,7 +4433,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 179.07 86.614 90)
+			(at 176.784 86.614 90)
 			(effects
 				(font
 					(size 1.06 1.06)

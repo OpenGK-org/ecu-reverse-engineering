@@ -630,7 +630,7 @@
 		)
 		(uuid "cb061609-e588-4f2d-96e8-1b0b94b08005")
 	)
-	(global_label "Ign. Coil 1&4"
+	(global_label "Ign. Coil 2&3"
 		(shape input)
 		(at 205.74 81.28 180)
 		(fields_autoplaced yes)

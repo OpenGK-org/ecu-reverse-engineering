@@ -1724,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 90.17 180)
+		(at 87.63 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1732,7 +1732,7 @@
 		(dnp no)
 		(uuid "14a68a11-dd50-4536-b83a-4379d558597b")
 		(property "Reference" "C16"
-			(at 81.026 89.408 0)
+			(at 94.234 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 80.01 91.186 0)
+			(at 95.25 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 203.2 95.25 180)
+		(at 203.2 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2397,7 +2397,7 @@
 		(dnp no)
 		(uuid "c6b8b79e-e612-426a-801e-be5bcc0f2c3c")
 		(property "Reference" "R14"
-			(at 204.978 94.488 90)
+			(at 201.422 96.012 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 206.502 93.472 90)
+			(at 199.898 97.028 90)
 			(effects
 				(font
 					(size 1.06 1.06)

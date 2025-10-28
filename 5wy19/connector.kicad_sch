@@ -2935,7 +2935,7 @@
 		)
 		(uuid "3c06e11b-4e90-4608-bcb2-d50978b678b5")
 	)
-	(text "Low Row"
+	(text "Down Row"
 		(exclude_from_sim no)
 		(at 246.126 140.97 90)
 		(effects

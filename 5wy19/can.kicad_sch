@@ -1233,7 +1233,7 @@
 		)
 		(uuid "de7b4864-ea5e-4297-8c36-01886be66383")
 	)
-	(global_label "CAN High"
+	(global_label "CAN Low"
 		(shape input)
 		(at 189.23 91.44 0)
 		(fields_autoplaced yes)
@@ -1243,9 +1243,31 @@
 			)
 			(justify left)
 		)
-		(uuid "254b86a9-04a0-4e22-858a-f075d9ac9ee4")
+		(uuid "12dd64f9-f827-4c06-8123-46d1b897a81c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1052 91.44 0)
+			(at 200.3795 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN High"
+		(shape input)
+		(at 189.23 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37784116-44f9-45eb-aacc-aa133f005b37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1052 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,28 +1317,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN Low"
-		(shape input)
-		(at 189.23 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a487d011-15b6-4af4-945b-71d0fed17096")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.3795 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1511,7 +1511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34d9d46b-2a54-4c2c-a991-591112d3de9d")
-		(property "Reference" "R150"
+		(property "Reference" "R156"
 			(at 180.594 94.742 90)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 		(instances
 			(project "5wy19_converted"
 				(path "/abd366a8-4ac6-4ee7-9079-ac453affd4f2/bcea594f-5802-461c-b871-25b4e6f18846"
-					(reference "R150")
+					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -1716,7 +1716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "745c85e0-e647-4c0b-beeb-2074c3dbd399")
-		(property "Reference" "R156"
+		(property "Reference" "R150"
 			(at 180.848 106.172 90)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 		(instances
 			(project "5wy19_converted"
 				(path "/abd366a8-4ac6-4ee7-9079-ac453affd4f2/bcea594f-5802-461c-b871-25b4e6f18846"
-					(reference "R156")
+					(reference "R150")
 					(unit 1)
 				)
 			)
